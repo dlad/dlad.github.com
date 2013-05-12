@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #34495E;
+}
+a, a:hover {
+	color: #3498DB;
+}
+header {
+	background-color: #34495E;
+	margin-bottom: 1em;
+}
+header h1 {
+  font-weight: 300;
+  font-style: normal;
+  margin-top: .4em;
+}
+header h1 a {
+	color: white;
+}
+header h1 a:hover {
+	color: white;
+}
+p.date {
+	color: #7F8C8D;
+	margin-bottom: 0.5em;
+}

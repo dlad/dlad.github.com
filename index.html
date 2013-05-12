@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Sometimes Maybe
 ---
 
 <div class="row">
-  	<div class="small-12 columns">
-		{% for post in site.posts %}
-		<p><a href="{{ post.url }}">{{ post.title }}</a> &mdash; <span>{{ post.date | date_to_string }}</span></p>
-		{% endfor %}
+{% for post in site.posts %}
+	<div class="small-12 large-8 small-centered columns">
+		<p class="date"><small>{{ post.date | date_to_string }}</small></p>
+		<h4 class="subheader"><a href="{{ post.url }}">{{ post.title }}</a></h4>
 	</div>
+{% endfor %}
 </div>

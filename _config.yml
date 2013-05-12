@@ -1,2 +1,3 @@
-name: Sometimes Maybe
+name: Sometimes Maybe …
 pygments: true
+permalink: /:year/:month/:title.html
