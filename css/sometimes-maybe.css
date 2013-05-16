@@ -63,8 +63,18 @@ article time {
 	text-transform: uppercase;
 	font-size: 0.7em;
 }
-
-
+pre, xmp, plaintext, listing, tt, code, kbd, samp {
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: .9em;
+	line-height: 1.4em;
+}
+pre {
+	margin: .5em .8em .5em .8em;
+}
+div.highlight {
+	background-color: #ECF0F1;
+	overflow: scroll;
+}
 @media only screen and (min-width: 620px) {
 #sometimes-maybe {
 	width: 600px;
