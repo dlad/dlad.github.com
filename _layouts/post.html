@@ -1,10 +1,8 @@
 ---
 layout: default
 ---
-	<div class="row">
-		<div class="small-12 large-8 small-centered columns">
-			<p class="date"><small>{{ page.date | date_to_string }}</small></p>
-			<h4 class="subheader">{{ page.title }}</h4>
+<article>
+    <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+	<time datetime="{{ page.date | date_to_xmlschema}}">{{ page.date | date_to_long_string }}</time>
 {{ content }}
-		</div>
-	</div>
+</article>
