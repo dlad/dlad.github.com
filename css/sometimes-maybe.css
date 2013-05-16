@@ -8,10 +8,10 @@ body {
 #sometimes-maybe {
 	width: auto;
 	margin: 0 auto 0 auto;
-	padding: 0 1em 1em 1em;
+	padding: 0 1.5em 1em 1.5em;
 }
 h1 {
-	font-size: 1.6em;
+	font-size: 3em;
 	font-weight: 400;
 	margin: .25em 0 .25em 0;
 	line-height: 1.6em;
@@ -47,11 +47,11 @@ nav a:hover {
 	border-bottom: 1px dotted #2980B9;
 }
 nav span {
-	padding-left: .25em;
-	padding-right: .25em;
+	padding-left: .5em;
+	padding-right: .5em;
 }
 p {
-	margin: .5em 0 .5em 0;
+	margin: 1em 0 1em 0;
 }
 p a {
 	border-bottom: 1px dotted #2980B9;
@@ -63,6 +63,19 @@ article time {
 	text-transform: uppercase;
 	font-size: 0.7em;
 }
+blockquote {
+	margin: 0 0 0 .5em;
+	padding: 0 1em 0 1em;
+	border-left: 1px #2C3E50 solid;
+}
+blockquote p {
+	margin: .5em 0 .5em 0;
+}
+blockquote cite:before {
+	content: '—';
+	font-style: normal;
+}
+
 pre, xmp, plaintext, listing, tt, code, kbd, samp {
 	font-family: 'Ubuntu Mono', monospace;
 	font-size: .9em;
@@ -78,8 +91,5 @@ div.highlight {
 @media only screen and (min-width: 620px) {
 #sometimes-maybe {
 	width: 600px;
-}
-h1 {
-	font-size: 2.5em;
 }
 }
