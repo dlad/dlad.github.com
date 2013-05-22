@@ -95,6 +95,16 @@ div.highlight {
 	overflow: scroll;
 }
 
+section.message {
+	text-align: center;
+}
+section.message p:before {
+	content: '404';
+	display: block;
+	font-size: 20em;
+	line-height: 1em;
+}
+
 /* for bigger screens - this is about responsive as we can be for now */
 @media only screen and (min-width: 620px) {
 	#sometimes-maybe {
